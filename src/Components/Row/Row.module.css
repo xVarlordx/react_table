@@ -1,0 +1,9 @@
+.Row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Row div {
+    width: 100px;
+}
