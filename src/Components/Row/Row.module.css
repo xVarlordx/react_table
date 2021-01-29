@@ -2,8 +2,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-right: 1px solid rgb(131,58,180);
+    border-left: 1px solid rgb(131,58,180);
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 
 }
+
+
 .Row div {
-    width: 100px;
+    width: 25%;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+.Row div + div {
+    border-left: 1px solid black;
 }

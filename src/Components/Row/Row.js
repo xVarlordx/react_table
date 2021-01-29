@@ -1,15 +1,16 @@
 import React from "react";
 import classes from './Row.module.css'
+
 function Row(props) {
 
-
+const {row} = props;
 
     return (
         <div className={classes.Row}>
-            <div>{props.row.number}</div>
-            <div>{props.row.name}</div>
-            <div>{props.row.power}</div>
-            <div>{props.row.status}</div>
+            <div>{row.number}</div>
+            <div>{row.name}</div>
+            <div>{row.power}</div>
+            <div>{row.status}</div>
         </div>
     )
 }

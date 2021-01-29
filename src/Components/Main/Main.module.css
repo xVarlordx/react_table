@@ -1,0 +1,42 @@
+.Main {
+    margin-top: 10px;
+}
+
+.TableInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TableInput input {
+    border-radius: 1rem;
+    outline: none;
+}
+
+.TableInput input:focus {
+    background-color: rgb(240,108,290);
+    background: linear-gradient(90deg, rgba(241,108,290,1) 0%, rgba(363,109,109,1) 50%, rgba(462,286,109,1) 100%);
+    transition: all .5s;
+    color: aliceblue;
+}
+
+.TableInput input, .AddButton{
+    width: 500px;
+    margin-top: 10px;
+    border: 1px solid rgb(131,58,180);
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.AddButton {
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.AddButton:hover {
+    background-color: rgb(240,108,290);
+    background: linear-gradient(90deg, rgba(241,108,290,1) 0%, rgba(363,109,109,1) 50%, rgba(462,286,109,1) 100%);
+    transition: all .5s;
+    color: aliceblue;
+}
